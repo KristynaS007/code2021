@@ -14,7 +14,14 @@ h1 {
     font-size: 4em;
 }
 .nejoblibenejsiRecepty {
+    display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+.tradicni {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
 }
 .col--1 {
     max-width: 30%;
