@@ -10,9 +10,6 @@
     transform: translate(-50%, -50%);
     font-size:10em;
 }
-h1 {
-    font-size: 4em;
-}
 .nejoblibenejsiRecepty {
     display: flex;
     align-items: center;
@@ -45,7 +42,4 @@ h1 {
 }
 body {
     margin: 0 auto
-}
-.zkouska {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
