@@ -17,15 +17,31 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    align-content: space-around;
 }
 .tradicni {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.netradicni {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.vanocni {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-content: space-around;
 }
 .col--1 {
     max-width: 30%;
-    height: auto;
 }
 body {
     margin: 0 auto
