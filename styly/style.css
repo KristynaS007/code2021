@@ -16,3 +16,7 @@ h1 {
 .nejoblibenejsiRecepty {
     flex-direction: row;
 }
+.col--1 {
+    max-width: 30%;
+    height: auto;
+}
