@@ -17,7 +17,9 @@ h1 {
     align-items: center;
 }
 .col--1 {
-    max-width: 33%;
+    max-width: 30%;
     height: auto;
-    display: inline-block;
+}
+body {
+    margin: 0 auto
 }
