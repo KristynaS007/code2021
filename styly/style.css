@@ -13,11 +13,15 @@
 .obal {
     display: flex;
     flex-direction: column;
+    width: 20em;
 }
 .knihovna {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    max-width: 95vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .tradicni {
     display: flex;
@@ -34,7 +38,7 @@
     align-content: space-around;
 }
 details {
-    max-width: 33%;
+    max-width: 30%;
 }
 .netradicni {
     display: flex;
@@ -51,7 +55,7 @@ details {
     align-content: space-around;
 }
 .col--1 {
-    width: 20em;
+    width: 19em;
     margin: 3px;
 }
 body {
