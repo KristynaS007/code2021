@@ -16,12 +16,27 @@
     justify-content: space-around;
     align-content: space-around;
 }
+.popisNejoblibenejsiRecepty {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
 .tradicni {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+}
+.details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+details {
+    max-width: 30%;
 }
 .netradicni {
     display: flex;
