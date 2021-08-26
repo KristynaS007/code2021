@@ -75,3 +75,11 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+body {
+    font-family: 'EB Garamond', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond&family=Parisienne&display=swap');
+.container {
+    font-family: 'Parisienne', cursive;
+}
