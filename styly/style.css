@@ -10,16 +10,14 @@
     transform: translate(-50%, -50%);
     font-size:10em;
 }
-.nejoblibenejsiRecepty {
+.obal {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-content: space-around;
+    flex-direction: column;
 }
-.popisNejoblibenejsiRecepty {
+.knihovna {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    flex-direction: row;
+    align-items: center;
 }
 .tradicni {
     display: flex;
@@ -53,7 +51,8 @@ details {
     align-content: space-around;
 }
 .col--1 {
-    max-width: 30%;
+    width: 20em;
+    margin: 3px;
 }
 body {
     margin: 0 auto
